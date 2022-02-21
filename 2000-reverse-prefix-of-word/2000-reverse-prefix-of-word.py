@@ -8,6 +8,5 @@ class Solution(object):
                 
         if idx == -1:
             return word
-        
         else:
             return word[:idx+1][::-1] + word[idx+1:]
